@@ -13,10 +13,10 @@ const HeroContent = ({
 }) => {
   return (
     <div className="w-[516px] h-[511px] pt-[57px] ml-[215px] z-20 relative">
-      <h1 className="urbanist-font font-bold text-[35px] leading-[42px] text-[#FFFFFF] w-full tracking-[-1px]">
+      <h1 className="urbanist-font font-semibold text-[35px] leading-[42px] text-[#FFFFFF] w-full tracking-[-1px]">
         {title}
       </h1>
-      <h1 className="urbanist-font font-bold text-[35px] leading-[42px] text-[#00E7F9] w-full hero-text-shadow">
+      <h1 className="urbanist-font font-semibold text-[35px] leading-[42px] text-[#00E7F9] w-full hero-text-shadow">
         {highlight}
       </h1>
 
@@ -32,7 +32,7 @@ const HeroContent = ({
         ))}
       </ul>
 
-      <div className="w-[313px] h-[40px] px-[40px] py-[8px] flex items-center justify-center bg-[#FC004E] hero-cta-button-shadow rounded-[10px] text-[#FFFFFF] figtree-font font-bold text-[20px] gap-[10px]">
+      <div className="w-[313px] h-[40px] px-[40px] py-[8px] flex items-center justify-center bg-[#FC004E] hero-cta-button-shadow rounded-[10px] text-[#FFFFFF] figtree-font font-semibold text-[20px] gap-[10px]">
         <p>{ctaText}</p>
         <Image src={ArrowIcon} alt={"Icon"} />
       </div>
