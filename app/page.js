@@ -1,11 +1,14 @@
 import PromotionBar from "@/components/PromotionBar";
+import RocketIcon from "../utils/Images/rocket.png"
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-[#010101] h-[805px]">
       <PromotionBar
-        message="🚀 FRESH BEGINNINGS SALE: Extra 25% OFF, Limited Spots - start your journey today!"
-        gradientColors="bg-gradient-to-r from-pink-500 to-cyan-400"
+        RocketIcon={RocketIcon}
+        message1="FRESH BEGINNINGS SALE:"
+        message2="Extra 25% OFF, Limited Spots - start your journey today!"
+        gradientColors="bg-gradient-to-r from-[#FC004E] to-[#10CBE0]"
       />
     </main>
   );
