@@ -1,7 +1,8 @@
-import PromotionBar from "@/components/PromotionBar";
-import RocketIcon from "../utils/Images/rocket.png"
+import HeroSection from "@/components/Hero/HeroSection";
 import Navbar from "@/components/Navbar";
-import Logo from "../utils/Images/Logo.svg"
+import PromotionBar from "@/components/PromotionBar";
+import Logo from "../utils/Images/Logo.svg";
+import RocketIcon from "../utils/Images/rocket.png";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         logo={Logo} 
         navLinks={[{name: "About us", href: "#"}, {name: "Contact", href: "#"}]} 
       />
+      <HeroSection />
     </main>
   );
 }

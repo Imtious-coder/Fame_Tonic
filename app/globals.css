@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&family=Nunito:wght@400;600;800&family=Urbanist:wght@400;600;800&display=swap");
 @import "tailwindcss";
 
-@theme inline {
-  --font-sans: var(--font-figtree);
-  --font-mono: var(--font-urbanist);
+:root {
+  --font-figtree: "Figtree", sans-serif;
+  --font-urbanist: "Urbanist", sans-serif;
+  --font-nunito: "Nunito", sans-serif;
 }
 
 body {
@@ -10,6 +12,23 @@ body {
   padding: 0;
 }
 
+.figtree-font {
+  font-family: var(--font-figtree);
+}
+.urbanist-font {
+  font-family: var(--font-urbanist);
+}
+.nunito-font {
+  font-family: var(--font-nunito);
+}
+
 .rocket-icon {
-  display: flex!important;
+  display: flex !important;
+}
+
+.hero-text-shadow {
+  text-shadow: 0px 4px 4px #fc004e;
+}
+.hero-cta-button-shadow {
+  box-shadow: 2px 2px 10px 0px #00e7f9;
 }
