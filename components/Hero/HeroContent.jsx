@@ -12,7 +12,7 @@ const HeroContent = ({
   subNote,
 }) => {
   return (
-    <div className="lg:w-[516px] lg:h-[511px] p-[20px] lg:p-0 lg:pt-[57px] lg:ml-[215px] z-20 relative top-[280px] md:top-0">
+    <div className="lg:w-[516px] lg:h-[511px] p-[20px] pb-0 lg:p-0 lg:pt-[57px] lg:ml-[215px] z-20 relative top-[280px] md:top-0">
       <h1 className="urbanist-font font-bold lg:font-semibold text-[25px] md:text-[35px] md:leading-[42px] text-[#FFFFFF] w-full md:tracking-[-1px] text-center md:text-start leading-[32px]">
         {title}
       </h1>
