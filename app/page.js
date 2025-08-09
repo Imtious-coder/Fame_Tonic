@@ -13,11 +13,11 @@ export default function Home() {
         message2="Extra 25% OFF, Limited Spots - start your journey today!"
         gradientColors="bg-gradient-to-r from-[#FC004E] to-[#10CBE0]"
       />
-      <Navbar 
+      {/* <Navbar 
         logo={Logo} 
         navLinks={[{name: "About us", href: "#"}, {name: "Contact", href: "#"}]} 
       />
-      <HeroSection />
+      <HeroSection /> */}
     </main>
   );
 }
