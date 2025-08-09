@@ -1,5 +1,7 @@
 import PromotionBar from "@/components/PromotionBar";
 import RocketIcon from "../utils/Images/rocket.png"
+import Navbar from "@/components/Navbar";
+import Logo from "../utils/Images/Logo.svg"
 
 export default function Home() {
   return (
@@ -9,6 +11,10 @@ export default function Home() {
         message1="FRESH BEGINNINGS SALE:"
         message2="Extra 25% OFF, Limited Spots - start your journey today!"
         gradientColors="bg-gradient-to-r from-[#FC004E] to-[#10CBE0]"
+      />
+      <Navbar 
+        logo={Logo} 
+        navLinks={[{name: "About us", href: "#"}, {name: "Contact", href: "#"}]} 
       />
     </main>
   );
