@@ -6,7 +6,7 @@ import RocketIcon from "../utils/Images/rocket.png";
 
 export default function Home() {
   return (
-    <main className="bg-[#010101] h-[1007px] lg:h-[805px] 2xl:h-[100vh]">
+    <main className="bg-[#010101] h-[1007px] lg:h-[805px] 2xl:h-[1000px] ">
       <PromotionBar
         RocketIcon={RocketIcon}
         message1="FRESH BEGINNINGS SALE:"
